@@ -1,0 +1,34 @@
+| Reference | Coding |
+|:-----|:------|
+|Coughlin, J., & Montague, M. (2011). The Effects of Cognitive Strategy Instruction on the Mathematical Problem Solving of Adolescents With Spina Bifida. The Journal of Special Education, 45(3), 171–183. doi:10.1177/0022466910363913|college|
+|Beal, C. R., Arroyo, I., Cohen, P. R., Woolf, B. P., & Beal, C. R. (2010). Evaluation of AnimalWatch: An intelligent tutoring system for arithmetic and fractions. Journal of Interactive Online Learning, 9(1), 64-77.|middle|
+|Adair, D., & Jaeger, M. (2014). Integration of computational fluid dynamics into a fluid mechanics curriculum. Computer Applications in Engineering Education, 22(1), 131–141. doi:10.1002/cae.20539|college|
+|Renkl, A. (2002). Worked-out examples: instructional explanations support learning by self-explanations. Learning and Instruction, 12(5), 529–556. doi:10.1016/S0959-4752(01)00030-5|secondary|
+|Zurita, G., & Nussbaum, M. (2004). Computer supported collaborative learning using wirelessly interconnected handheld computers. Computers & education, 42(3), 289-314.|primary|
+|Hung, P., Hwang, G., Lin, Y., Wu, T., & Su, I. (2013). Seamless connection between learning and assessment - applying progressivelearning tasks in mobile ecology inquiry. Educational Technology and Society, 16(1), 194-205.|secondary|
+|Chen, C. H. (2014). An adaptive scaffolding e-learning system for middle school students’ physics learning. Australasian Journal of Educational Technology, 30(3)|middle|
+|Kumar, Amruth N. "A tutor for using dynamic memory in C++." Frontiers in Education, 2002. FIE 2002. 32nd Annual. Vol. 1. IEEE, 2002.|college|
+|Kramarski, B., & Gutman, M. (2006). How can self-regulated learning be supported in mathematical E-learning environments? Journal of Computer Assisted Learning, 22(1), 24–33. doi:10.1111/j.1365-2729.2006.00157.x|secondary|
+|Mulder, Y. G., Lazonder, A. W., & de Jong, T. (2011). Comparing two types of model progression in an inquiry learning environment with modelling facilities. Learning and Instruction, 21(5), 614-624.
+|secondary|
+|Richardson, D. C., Richardson, J. S., Sirochman, R., Weiner, S. W., Farwell, M., Putnam-Evans, C., … Bateman, R. C. (2005). Assessment of Molecular Construction in Undergraduate Biochemistry. Journal of Chemical Education, 82(12), 1854. doi:10.1021/ed082p1854|college|
+|Ross, J. A., & Bruce, C. D. (2009). Student achievement effects of technology-supported remediation of understanding of fractions. International Journal of Mathematical Education in Science & Technology, 40(6), 713–727. doi:10.1080/00207390902971999|middle|
+|Kinnebrew, J. S., Segedy, J. R., & Biswas, G. (2014). Analyzing the temporal evolution of students' behaviors in open-ended learning environments. Metacognition And Learning, 9(2), 187-215. doi:10.1007/s11409-014-9112-4|college|
+|Zhu, S., Xie, F., & Levinson, D. (2011). Enhancing Transportation Education through Online Simulation Using an Agent-Based Demand and Assignment Model. Journal of Professional Issues in Engineering Education and Practice, 137(1), 38–45. doi:10.1061/(ASCE)EI.1943-5541.0000038|college|
+|Dori, Y. J., Barak, M., & Adir, N. (2003). A Web-based chemistry course as a means to foster freshmen learning. Journal of Chemical Education, 80(9), 1084.|college|
+|Osman, K., & Lee, T. T. (2014). IMPACT OF INTERACTIVE MULTIMEDIA MODULE WITH PEDAGOGICAL AGENTS ON STUDENTS’UNDERSTANDING AND MOTIVATION IN THE LEARNING OF ELECTROCHEMISTRY. International Journal of Science and Mathematics Education, 12(2), 395–|secondary|
+|Stark, D. M. (2013). Ill-structured problems, scaffolding and problem-solving ability of novice nursing students (Doctoral dissertation, CAPELLA UNIVER|college|
+|Nichols, K., Hanan, J., & Ranasinghe, M. (2013). Transforming the social practices of learning with representations: A study of disciplinary discourse. Research in Science Education, 43(1), 179-208.|college|
+|Manlove, S., Lazonder, A. W., & Jong, T. D. (2006). Regulative support for collaborative scientific inquiry learning. Journal of Computer Assisted Learning, 22(2), 87-98.|college|
+|Rosen, Y., & Tager, M. (2014). Making Student Thinking Visible through a Concept Map in Computer-Based Assessment of Critical Thinking. Journal of Educational Computing Research, 50(2), 249-270.|secondary|
+|Lin, X., & Lehman, J. D. (1999). Supporting learning of variable control in a computer-based biology environment: Effects of prompting college students to reflect on their own thinking. Journal of Research in Science Teaching, 36(7), 837–858.|college|
+|Rodrguez, D., Sicilia, M. ngel, Cuadrado-Gallego, J. J., & Pfahl, D. (2006). e-Learning in Project Management Using Simulation Models: A Case Study Based on the Replication of an Experiment. IEEE Transactions on Education, 49(4), 451–463. doi:10.1109/TE.2006.882367|college|
+|Schrader, C., & Bastiaens, T. (2012). Learning in Educational Computer Games for Novices: The Impact of Support Provision Types on Virtual Presence, Cognitive Load, and Learning Outcomes. International Review of Research in Open & Distance Learning, 13(3), 206–227.|middle|
+|Aydin, E., & Cagiltay, N. (2012). A new RF and Microwave Engineering course enriched with advanced technologies. Computer Applications in Engineering Education, 20(4), 634–645. doi:10.1002/cae.20432|college|
+|Powell, C., & Mason, D. (2013). Effectiveness of Podcasts Delivered on Mobile Devices as a Support for Student Learning During General Chemistry Laboratories. Journal Of Science Education & Technology, 22(2), 148-170. doi:10.1007/s10956-012-9383-y|college|
+|Lane, H. (2005). Natural language tutoring and the novice programmer. Dissertation Abstracts International, 65,|college|
+|Simons, K. D., & Klein, J. D. (2007). The Impact of Scaffolding and Student Achievement Levels in a Problem-based Learning Environment. Instructional Science, 35(1), 41–72. doi:10.1007/s11251-006-9002-5|middle|
+|Butz, B. P., Duarte, M., & Miller, S. M. (2006). An Intelligent Tutoring System for Circuit Analysis. IEEE Transactions on Education, 49(2), 216–223. doi:10.1109/TE.2006.872407|college|
+|Zhang, J., Chen, Q., & Reid, D. J. (2000). Simulation-based scientific discovery learning: a research on the effects of experimental support and learners’ reasoning ability. In Proceedings of Conference on Educational Use of Information and Communication Technology (pp. 344-351).|middle|
+|Chu, H. C., Hwang, G. J., Tsai, C. C. (2010). A knowledge engineering approach to developing mindtools for context-aware ubiquitous learning. Computers & Education,  54, 289-297.|primary|
+|Pando Cerra, P., Higuera Garrido, A., Fombona Cadavieco, J., & González Lamar, D. (2014). Schematics Trainer: An interactive computer tool to study schematic diagrams in engineering education. Computer Applications in Engineering Education, 22(1), 99–109. doi:10.1002/cae.20535|college|

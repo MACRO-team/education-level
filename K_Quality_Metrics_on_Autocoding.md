@@ -1,0 +1,1 @@
+We evaluate our education level predictions with an accuracy metric. The accuracy is 0.848
