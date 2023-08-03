@@ -1,0 +1,5 @@
+We have 3 scripts here:
+
+1. *text_extraction_code.py*: This is for extracting the text from a pdf file. It has two named parameters. The first one is **pdf_path** which is a path to a folder that contains pdf files. The other one  is **output_path** that is a path to a folder which will contain the extracted txt files.
+2. *text_citation_based_filtering_code.py*: This is for filtering the txt file to discard related work section using citation based filtering. It has a named parameter as well. It is called **pdf_extract_dir** which a path to a folder that contains extracted articles.
+3. *text_section_extraction_based_filtering_code.py*: This is for filtering the txt file to get the related work section using a keyword based approach. Then, this section is removed from the article in the automatic coding part. It has a named parameter as well. It is called **pdf_extract_dir** which a path to a folder that contains extracted articles.
