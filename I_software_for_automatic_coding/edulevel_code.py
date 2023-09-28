@@ -2,41 +2,12 @@ import argparse
 import json
 import os
 import re
-from sklearn.metrics import accuracy_score
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--articles_path', help='path of the folder containing extracte files and relevant sections')
-parser.add_argument('--label_path', help='path of labels')
 
 args = parser.parse_args()
-
-label_mappings = {
-    "college/vocational/technical": "college",
-    "collegeVocationalTechnical": "college",
-    "graduate/professional": "graduate",
-    "graduateProfessional": "graduate",
-    "middle": "middle",
-    "middle(basicallya50/...ystudents.": "middle", 
-    "middlelevel": "middle",
-    "elementary": "primary",
-    "primary": "primary",
-    "secondary": "secondary",
-    "adult":"adult"
-}
-
-with open (args.label_path, "r") as f:
-    labels = json.load(f)
-
-for article in labels:
-    try:
-        labels[article] = label_mappings[labels[article]]
-    except KeyError:
-        continue
-
-
-
-
 
 #primary/elementary 1,2,3,4,5
 # (seven|7)th grade(|ers)
@@ -86,37 +57,12 @@ def find_education_level(article):
     college_count = len(re.findall(college_re, article))
 
     graduate_count = len(re.findall(graduate_re, article))
-
-    max_count, max_level = max([(primary_count, "primary"), (middle_count, "middle"), (secondary_count, "secondary"), (college_count, "college"), (graduate_count, "graduate")])
+  
+    _, max_level = max([(primary_count, "primary"), (middle_count, "middle"), (secondary_count, "secondary"), (college_count, "college"), (graduate_count, "graduate")])
 
     return max_level
 
-def classify(article, article_name):
-    edu_level_prediction = find_education_level(article)
-    try: # this is for citation based
-        temp = article_name.split("_")[3]
-    except:# this is for header_extraction based
-        temp = article_name
-    
-    temp = temp.split(".")
-    real_article_name1 = f"({temp[0]} et al., {temp[1]})"
-    real_article_name2 = f"({temp[0]}, {temp[1]})"
-    try:
-        label = labels[real_article_name1]
-    except:
-        try:
-            label = labels[real_article_name2]
-        except:
-            try:
-                label = labels[real_article_name1.capitalize()]
-            except:
-                try:
-                    label = labels[real_article_name2.capitalize()]
-                except:
-                    label = None
-    return label, edu_level_prediction
-
-filtering_method = "citation_based" # the other other one is header_extraction
+filtering_method = "header_extraction" # the other other one is header_extraction
 ground_truths = []
 predictions = []
 
@@ -124,10 +70,8 @@ folder = args.articles_path
 count = 0
 if filtering_method == "citation_based":
     for article_name in os.listdir(folder):
-       
         with open(f"{folder}/{article_name}" ,"r") as f:
             article = f.read()
-
         # further preprocessing
         if "abstract" in article:
             article = article[article.find("abstract"):]
@@ -135,16 +79,14 @@ if filtering_method == "citation_based":
         article = re.sub(' +',' ',article)
         
 
-        label, edu_level_prediction = classify(article, article_name)
-        if label!=edu_level_prediction:
-            print(label, edu_level_prediction)
-            print(article_name)
-            count +=1
-        if label:
-            ground_truths.append(label)
-            predictions.append(edu_level_prediction)
+        edu_level_prediction = find_education_level(article)
+        print(article_name)
+        print(edu_level_prediction)
+        print()
 else:
     for article_name in os.listdir(folder):
+        if "json" not in article_name:
+            continue
         with open(f"{folder}/{article_name.replace('.json','')}" ,"r") as f:
             article = f.read()
         with open(f"{folder}/{article_name}" ,"r") as f:
@@ -159,9 +101,7 @@ else:
         # further preprocessing
         if "abstract" in filtered_article:
             filtered_article = filtered_article[filtered_article.find("abstract"):]
-        label, edu_level_prediction = classify(filtered_article, article_name.replace('.json',''))
-        if label:
-            ground_truths.append(label)
-            predictions.append(edu_level_prediction)
-
-print(accuracy_score(ground_truths, predictions))
+        edu_level_prediction = find_education_level(filtered_article)
+        print(article_name)
+        print(edu_level_prediction)
+        print()
